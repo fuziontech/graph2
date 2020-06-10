@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=graphy2
+POSTGRES_USER=GmSQEVKaKBvRhSykUCnXcKeNtOJQEDVu
+POSTGRES_PASSWORD=a90ggxItwM6dOrfxNzYuAqbaWNjI5DblgHV9fA9wu6Xwbf18O67j9kOtnq7vMxw9
