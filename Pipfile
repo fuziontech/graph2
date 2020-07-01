@@ -1,0 +1,45 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytz = "==2020.1"
+python-slugify = "==4.0.0"
+Pillow = "==7.1.2"
+argon2-cffi = "==19.2.0"
+redis = "==3.5.0"
+hiredis = "==1.0.1"
+celery = "==4.4.2"
+django-celery-beat = "==2.0.0"
+flower = "==0.9.4"
+graphene-django = ">=2.0"
+Django = "==3.0.5"
+django-environ = "==0.4.5"
+django-model-utils = "==4.0.0"
+django-allauth = "==0.41.0"
+django-crispy-forms = "==1.9.0"
+django-redis = "==4.11.0"
+gunicorn = "==20.0.4"
+psycopg2 = "==2.8.5"
+Collectfast = "==2.1.0"
+sentry-sdk = "==0.14.4"
+psycopg2-binary = "*"
+
+[dev-packages]
+pylint = "*"
+black = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
+
+[packages.django-storages]
+extras = [ "google",]
+version = "==1.9.1"
+
+[packages.django-anymail]
+extras = [ "mailgun",]
+version = "==7.1.0"

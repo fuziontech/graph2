@@ -74,14 +74,13 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "graphy2.users.apps.UsersConfig",
+    "graphy2.cars.apps.CarsConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
-GRAPHENE = {
-    'SCHEMA': 'graphy2.schema.schema' # Where your Graphene schema lives
-}
+GRAPHENE = {"SCHEMA": "graphy2.schema.schema"}  # Where your Graphene schema lives
 
 # MIGRATIONS
 # ------------------------------------------------------------------------------
